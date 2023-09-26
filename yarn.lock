@@ -277,12 +277,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@slashnephy/prettier-config@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@slashnephy/prettier-config@npm:1.0.0"
+"@slashnephy/prettier-config@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@slashnephy/prettier-config@npm:1.0.3"
   peerDependencies:
     prettier: ^3
-  checksum: d5ce2595366d099672e2805a85de283e7689ac8a1f497f35076375c92312736abd74c293e6f4e641a5a37f155c0a1eaa697d304bc0bf51bf133492cdaa118a52
+  checksum: 403ffa8e15b9ad57307ec11428384a72eaf3378adb8aa87390dcb389d6bdc7292c004d1c1627f2083bad63bfb329a19e662051674659cb9533058dce870b5f99
   languageName: node
   linkType: hard
 
@@ -291,7 +291,7 @@ __metadata:
   resolution: "@slashnephy/types-amq@workspace:."
   dependencies:
     "@slashnephy/eslint-config": 2.0.5
-    "@slashnephy/prettier-config": 1.0.0
+    "@slashnephy/prettier-config": 1.0.3
     "@types/jquery": 3.5.16
     "@types/node": 20.4.5
     concurrently: 8.2.0
