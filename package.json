@@ -20,14 +20,19 @@
     "format": "concurrently -m 1 -n format: 'yarn:format:*'",
     "format:eslint": "yarn lint:eslint --fix",
     "format:prettier": "yarn lint:prettier --write",
-    "generate": "tsc src/**/*.js --declaration --allowJs --emitDeclarationOnly --outDir types",
+    "generate": "tsc --project tsconfig.generate.json",
     "lint": "concurrently -n lint: 'yarn:lint:*'",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "publish": "yarn npm publish"
   },
   "dependencies": {
-    "@types/jquery": "3.5.19"
+    "@types/bootstrap": "3.3.33",
+    "@types/cookieconsent": "3.1.1",
+    "@types/jquery": "3.2.0",
+    "@types/js-cookie": "2.2.7",
+    "perfect-scrollbar": "0.7.0",
+    "sweetalert": "2.1"
   },
   "devDependencies": {
     "@slashnephy/eslint-config": "2.0.6",

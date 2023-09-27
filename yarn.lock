@@ -292,12 +292,17 @@ __metadata:
   dependencies:
     "@slashnephy/eslint-config": 2.0.6
     "@slashnephy/prettier-config": 1.0.5
-    "@types/jquery": 3.5.19
+    "@types/bootstrap": 3.3.33
+    "@types/cookieconsent": 3.1.1
+    "@types/jquery": 3.2.0
+    "@types/js-cookie": 2.2.7
     "@types/node": 20.4.10
     concurrently: 8.2.1
     dts-gen: 0.6.1
     eslint: 8.45.0
+    perfect-scrollbar: 0.7.0
     prettier: 3.0.0
+    sweetalert: 2.1
     ts-node: 10.9.1
     typescript: 5.1.6
   languageName: unknown
@@ -340,12 +345,44 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jquery@npm:3.5.19":
+"@types/bootstrap@npm:3.3.33":
+  version: 3.3.33
+  resolution: "@types/bootstrap@npm:3.3.33"
+  dependencies:
+    "@types/jquery": "*"
+  checksum: ae2d806b8f1402da69aeda3140acd4a456f4e5e5e301743fe752e1672245fbcb1ad9347d483d3dca3979b2bbfaedd0b97b22c1ee811bc7cead58eea32853892d
+  languageName: node
+  linkType: hard
+
+"@types/cookieconsent@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@types/cookieconsent@npm:3.1.1"
+  dependencies:
+    csstype: ^3.0.2
+  checksum: 6cb12c04a53176df691858c29d6050bbdc02e00d4053fdb2e0040516644c1c9389d8f5a87d80cf77ce85063cb3e98d92373dcb1c68e12c8bd392da34c2d25895
+  languageName: node
+  linkType: hard
+
+"@types/jquery@npm:*":
   version: 3.5.19
   resolution: "@types/jquery@npm:3.5.19"
   dependencies:
     "@types/sizzle": "*"
   checksum: 0298e53a353089e2abae4be2f660b5f2bfb4797464623701c5c2f2c911317b554f1887c2c3d587d0f724d70a3fb5e31907bf7fa5d96df33af07e2842660ef52a
+  languageName: node
+  linkType: hard
+
+"@types/jquery@npm:3.2.0":
+  version: 3.2.0
+  resolution: "@types/jquery@npm:3.2.0"
+  checksum: 9bffaca2982cfd1f0e16619e04eb0d1cfeac67d7e1993175a85d127df1c495b98dae6c162c9c39b608a3551e62f3f9e32be5326824631f5fc62a82c7b7464602
+  languageName: node
+  linkType: hard
+
+"@types/js-cookie@npm:2.2.7":
+  version: 2.2.7
+  resolution: "@types/js-cookie@npm:2.2.7"
+  checksum: 851f47e94ca1fc43661d8f51614d67a613e7810c91b876d0a3b311ce72f7df800107fd02a08cb6948184e12c120b4f058edca2f50424d8798bdcffd6627281e3
   languageName: node
   linkType: hard
 
@@ -1011,6 +1048,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csstype@npm:^3.0.2":
+  version: 3.1.2
+  resolution: "csstype@npm:3.1.2"
+  checksum: e1a52e6c25c1314d6beef5168da704ab29c5186b877c07d822bd0806717d9a265e8493a2e35ca7e68d0f5d472d43fac1cdce70fd79fd0853dff81f3028d857b5
+  languageName: node
+  linkType: hard
+
 "damerau-levenshtein@npm:^1.0.8":
   version: 1.0.8
   resolution: "damerau-levenshtein@npm:1.0.8"
@@ -1331,6 +1375,13 @@ __metadata:
     is-date-object: ^1.0.1
     is-symbol: ^1.0.2
   checksum: 4ead6671a2c1402619bdd77f3503991232ca15e17e46222b0a41a5d81aebc8740a77822f5b3c965008e631153e9ef0580540007744521e72de8e33599fca2eed
+  languageName: node
+  linkType: hard
+
+"es6-object-assign@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "es6-object-assign@npm:1.1.0"
+  checksum: 8d4fdf63484d78b5c64cacc2c2e1165bc7b6a64b739d2a9db6a4dc8641d99cc9efb433cdd4dc3d3d6b00bfa6ce959694e4665e3255190339945c5f33b692b5d8
   languageName: node
   linkType: hard
 
@@ -3628,6 +3679,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"perfect-scrollbar@npm:0.7.0":
+  version: 0.7.0
+  resolution: "perfect-scrollbar@npm:0.7.0"
+  checksum: 5b30e0763818c2862432f660ed6089dd1994f1eb7a2a47a9b6cbb4ce1f12f7986306c8aa3d38ab99d9bdc26f12da73df0fa6fbf283801821c0346db3d15663f6
+  languageName: node
+  linkType: hard
+
 "picocolors@npm:^1.0.0":
   version: 1.0.0
   resolution: "picocolors@npm:1.0.0"
@@ -3698,6 +3756,13 @@ __metadata:
   bin:
     prettier: bin/prettier.cjs
   checksum: 6a832876a1552dc58330d2467874e5a0b46b9ccbfc5d3531eb69d15684743e7f83dc9fbd202db6270446deba9c82b79d24383d09924c462b457136a759425e33
+  languageName: node
+  linkType: hard
+
+"promise-polyfill@npm:^6.0.2":
+  version: 6.1.0
+  resolution: "promise-polyfill@npm:6.1.0"
+  checksum: 6f1899cca37e48f67a424842282acd525d8d99d3536f2d97e37a117cfc4a0006683330ceaf5a15fbc09b4450f319a680292f9970a5f8e9cf90acbce0bdb0f751
   languageName: node
   linkType: hard
 
@@ -4274,6 +4339,16 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
+  languageName: node
+  linkType: hard
+
+"sweetalert@npm:2.1":
+  version: 2.1.2
+  resolution: "sweetalert@npm:2.1.2"
+  dependencies:
+    es6-object-assign: ^1.1.0
+    promise-polyfill: ^6.0.2
+  checksum: 6f15adc82643c1374b70390ca56eca62f07365ca933c6b3722e2f651a19fff810120c2d7547e76de17a2b5da36e31f14d1a12358e69e0548c91b74e5af887bd3
   languageName: node
   linkType: hard
 
