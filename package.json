@@ -6,7 +6,6 @@
     "type": "git",
     "url": "https://github.com/SlashNephy/types-amq"
   },
-  "types": "./types/index.d.ts",
   "files": [
     "./package.json",
     "./types/index.d.ts",
@@ -51,5 +50,6 @@
     "extends": [
       "@slashnephy/eslint-config"
     ]
-  }
+  },
+  "types": "./types/index.d.ts"
 }
