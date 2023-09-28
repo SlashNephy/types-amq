@@ -8,3 +8,21 @@
 ```console
 $ yarn add @slashnephy/types-amq
 ```
+
+## Usage
+
+`tsconfig.json`
+
+```json
+{
+  "typeRoots": ["./node_modules/@slashnephy/types-amq"]
+}
+```
+
+or
+
+```json
+{
+  "types": ["@slashnephy/types-amq/types"]
+}
+```

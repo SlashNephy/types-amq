@@ -10,5 +10,5 @@
     "skipLibCheck": true,
     "strictNullChecks": true
   },
-  "include": ["./types/**/*.ts"]
+  "include": ["./types/index.d.ts"]
 }

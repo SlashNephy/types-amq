@@ -4,7 +4,7 @@
     "declarationMap": true,
     "allowJs": true,
     "emitDeclarationOnly": true,
-    "outDir": "types",
+    "outFile": "types/index.d.ts",
     "target": "esnext",
     "module": "commonjs",
     "removeComments": true,
