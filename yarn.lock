@@ -275,7 +275,7 @@ __metadata:
     "@types/cookieconsent": 3.1.1
     "@types/jquery": 3.2.0
     "@types/js-cookie": 2.2.7
-    "@types/node": 20.4.10
+    "@types/node": 20.8.2
     concurrently: 8.2.1
     eslint: 8.50.0
     perfect-scrollbar: 0.7.0
@@ -378,10 +378,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.4.10":
-  version: 20.4.10
-  resolution: "@types/node@npm:20.4.10"
-  checksum: 02a1ca415d9cc91144c4250383aa0ef1e48241bd36067ed7d1b239d8bacc2a11139dd90e223e11ac289345eeae624cc5dcf73359e684bd2e5a6c31bdfbab4811
+"@types/node@npm:20.8.2":
+  version: 20.8.2
+  resolution: "@types/node@npm:20.8.2"
+  checksum: 3da73e25d821bfcdb7de98589027e08bb4848e55408671c4a83ec0341e124b5313a0b20e1e4b4eff1168ea17a86f622ad73fcb04b761abd77496b9a27cbd5de5
   languageName: node
   linkType: hard
 
